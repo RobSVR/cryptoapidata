@@ -1,0 +1,12 @@
+# Crypto API Directory
+
+An open, read-only directory of cryptocurrency APIs for people, developers, and AI agents.
+
+## Machine-readable catalogue
+
+- Static catalogue snapshot: GET /catalog.json
+- Human-readable directory: GET /
+
+The catalogue is a static JSON file served directly by the hosting CDN. It is not a live data API and does not proxy requests to any listed provider.
+
+Always inspect lastVerifiedAt before relying on a listing. Follow documentationUrl for provider-specific terms, authentication, rate limits, and commercial-use rules. This directory provides metadata only and does not redistribute provider data.

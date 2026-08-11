@@ -1,0 +1,682 @@
+{
+  "data": [
+    {
+      "slug": "backpack",
+      "name": "Backpack Exchange",
+      "description": "Spot and perpetual futures markets, tickers, funding and trading.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX",
+        "Exchange"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.backpack.exchange",
+      "documentationUrl": "https://docs.backpack.exchange/",
+      "websiteUrl": "https://backpack.exchange/",
+      "usedFor": "Market data and funding rates",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "pacifica",
+      "name": "Pacifica",
+      "description": "Perpetual markets, order books, funding rates and account trading.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.pacifica.fi/api/v1",
+      "documentationUrl": "https://docs.pacifica.fi/api-documentation/api",
+      "websiteUrl": "https://app.pacifica.fi/",
+      "usedFor": "Market data and trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "lighter",
+      "name": "Lighter",
+      "description": "Order books, symbols, funding and low-latency perpetual trading.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://mainnet.zklighter.elliot.ai",
+      "documentationUrl": "https://apidocs.lighter.xyz/",
+      "websiteUrl": "https://app.lighter.xyz/",
+      "usedFor": "Order books and funding rates",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "nado",
+      "name": "Nado",
+      "description": "Gateway and archive APIs for perpetual markets and account data.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://gateway.prod.nado.xyz/v1",
+      "documentationUrl": "https://docs.nado.xyz/developer-resources/api",
+      "websiteUrl": "https://app.nado.xyz/",
+      "usedFor": "Markets, funding and trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "ethereal",
+      "name": "Ethereal",
+      "description": "Perpetual market data, WebSocket streams and authenticated trading.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.ethereal.trade",
+      "documentationUrl": "https://docs.ethereal.trade/developer-guides/trading-api",
+      "websiteUrl": "https://ethereal.trade/",
+      "usedFor": "Market data and funding rates",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "extended",
+      "name": "Extended",
+      "description": "Starknet perpetual markets with REST and real-time streaming APIs.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.starknet.extended.exchange",
+      "documentationUrl": "https://api.docs.extended.exchange/",
+      "websiteUrl": "https://app.extended.exchange/",
+      "usedFor": "Markets, funding and trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "variational",
+      "name": "Variational Omni",
+      "description": "Omni perpetual markets, quotes, funding and authenticated accounts.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://omni-client-api.prod.ap-northeast-1.variational.io",
+      "documentationUrl": "https://docs.variational.io/technical-documentation/api",
+      "websiteUrl": "https://omni.variational.io/",
+      "usedFor": "Markets and account trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "edgex",
+      "name": "EdgeX",
+      "description": "Public metadata, tickers and perpetual contract market data.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://pro.edgex.exchange/api/v1",
+      "documentationUrl": "https://docs.edgex.exchange/",
+      "websiteUrl": "https://pro.edgex.exchange/",
+      "usedFor": "Ticker and open-interest data",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "paradex",
+      "name": "Paradex",
+      "description": "Starknet perpetual and options markets, funding and trading APIs.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.prod.paradex.trade",
+      "documentationUrl": "https://docs.paradex.trade/api",
+      "websiteUrl": "https://app.paradex.trade/",
+      "usedFor": "Funding rates and market data",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "hyperliquid",
+      "name": "Hyperliquid",
+      "description": "Perpetual and spot markets, order books, funding and trading.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX",
+        "Exchange"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.hyperliquid.xyz",
+      "documentationUrl": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api",
+      "websiteUrl": "https://app.hyperliquid.xyz/",
+      "usedFor": "Markets, funding and trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "apex-omni",
+      "name": "ApeX Omni",
+      "description": "Perpetual tickers, order books, account data and trading.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://omni.apex.exchange/api",
+      "documentationUrl": "https://api-docs.omni.apex.exchange/",
+      "websiteUrl": "https://omni.apex.exchange/",
+      "usedFor": "All-market ticker snapshots",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "risex",
+      "name": "RISE",
+      "description": "Perpetual market data and wallet-authenticated trading on RISE Chain.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.rise.trade",
+      "documentationUrl": "https://developer.rise.trade/reference/general-information",
+      "websiteUrl": "https://www.rise.trade/",
+      "usedFor": "Market data and trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "ondo-perps",
+      "name": "Ondo Perps",
+      "description": "Perpetual market data, instruments and authenticated trading endpoints.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.ondoperps.xyz",
+      "documentationUrl": "https://docs.ondoperps.xyz/api-reference/rest-spec.json",
+      "websiteUrl": "https://ondoperps.xyz/",
+      "usedFor": "Markets and trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "reya",
+      "name": "Reya",
+      "description": "Perpetual pools, prices, funding and account positions.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.reya.xyz/v2",
+      "documentationUrl": "https://docs.reya.xyz/developers",
+      "websiteUrl": "https://app.reya.xyz/",
+      "usedFor": "Funding and market statistics",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "hotstuff",
+      "name": "Hotstuff",
+      "description": "Perpetual markets, live streams and order-management APIs.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.hotstuff.trade",
+      "documentationUrl": "https://docs.hotstuff.trade/api-reference/getting-started/introduction",
+      "websiteUrl": "https://app.hotstuff.trade/",
+      "usedFor": "Market data and funding rates",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "aster",
+      "name": "Aster",
+      "description": "Binance-compatible perpetual futures market and trading API.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://fapi.asterdex.com",
+      "documentationUrl": "https://github.com/asterdex/api-docs/blob/master/aster-finance-futures-api.md",
+      "websiteUrl": "https://www.asterdex.com/",
+      "usedFor": "Tickers and open interest",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "avantis",
+      "name": "Avantis",
+      "description": "Base-based perpetual protocol data via SDK, RPC and socket API.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX",
+        "SDK"
+      ],
+      "protocols": [
+        "REST",
+        "JSON-RPC"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://socket-api-pub.avantisfi.com/socket-api/v1",
+      "documentationUrl": "https://sdk.avantisfi.com/",
+      "websiteUrl": "https://www.avantisfi.com/",
+      "usedFor": "Market statistics",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "dango",
+      "name": "Dango",
+      "description": "GraphQL API for perpetual markets, state and transaction queries.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "GraphQL"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api-mainnet.dango.zone/graphql",
+      "documentationUrl": "https://docs.dango.exchange/perps/8-api.html",
+      "websiteUrl": "https://dango.exchange/",
+      "usedFor": "Market statistics and trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "zero-one",
+      "name": "01 Exchange",
+      "description": "Perpetual market metadata, order books, funding and trading.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://zo-mainnet.n1.xyz",
+      "documentationUrl": "https://docs.01.xyz/reference",
+      "websiteUrl": "https://01.xyz/",
+      "usedFor": "Funding and market data",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "perpl",
+      "name": "Perpl",
+      "description": "Perpetual market data and wallet-session trading APIs.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://app.perpl.xyz/api",
+      "documentationUrl": "https://github.com/PerplFoundation/api-docs",
+      "websiteUrl": "https://app.perpl.xyz/",
+      "usedFor": "Markets, accounts and trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "standx",
+      "name": "StandX",
+      "description": "Public perpetual market overview and instrument statistics.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX",
+        "Market data"
+      ],
+      "protocols": [
+        "REST"
+      ],
+      "access": "Public",
+      "freeAccess": true,
+      "apiBaseUrl": "https://perps.standx.com/api",
+      "documentationUrl": "https://docs.standx.com/standx-api/standx-api",
+      "websiteUrl": "https://standx.com/",
+      "usedFor": "Market overview",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "grvt",
+      "name": "GRVT",
+      "description": "Market-data API for perpetual instruments, tickers and order books.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX",
+        "Market data"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://market-data.grvt.io/full/v1",
+      "documentationUrl": "https://api-docs.grvt.io/",
+      "websiteUrl": "https://grvt.io/",
+      "usedFor": "Instruments and tickers",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "hibachi",
+      "name": "Hibachi",
+      "description": "Public perpetual market data plus authenticated account and trading APIs.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://data-api.hibachi.xyz",
+      "documentationUrl": "https://api-doc.hibachi.xyz/",
+      "websiteUrl": "https://hibachi.xyz/",
+      "usedFor": "Market statistics and trading",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "ostium",
+      "name": "Ostium",
+      "description": "On-chain perpetual market data queried through a public subgraph.",
+      "categories": [
+        "DEX APIs",
+        "Perpetual DEX",
+        "On-chain data"
+      ],
+      "protocols": [
+        "GraphQL"
+      ],
+      "access": "Public",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.subgraph.ormilabs.com/api/public/67a599d5-c8d2-4cc4-9c4d-2975a97bc5d8/subgraphs/ost-prod/live/gn",
+      "documentationUrl": "https://docs.ostium.com/",
+      "websiteUrl": "https://www.ostium.com/",
+      "usedFor": "Pairs, orders and open interest",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "defillama",
+      "name": "DefiLlama",
+      "description": "Open DeFi analytics covering protocols, chains, yields and derivatives.",
+      "categories": [
+        "DeFi analytics",
+        "Market data",
+        "Lending & Borrowing APIs"
+      ],
+      "protocols": [
+        "REST"
+      ],
+      "access": "Public",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.llama.fi",
+      "documentationUrl": "https://defillama.com/docs/api",
+      "websiteUrl": "https://defillama.com/",
+      "usedFor": "Derivatives overview",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "coingecko",
+      "name": "CoinGecko",
+      "description": "Crypto prices, token metadata, market charts and exchange data.",
+      "categories": [
+        "Market data",
+        "Prices"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://api.coingecko.com/api/v3",
+      "documentationUrl": "https://docs.coingecko.com/",
+      "websiteUrl": "https://www.coingecko.com/",
+      "usedFor": "Historical prices and pair analysis",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {
+      "slug": "binance-futures",
+      "name": "Binance Futures",
+      "description": "USD-M futures prices, premium index, funding and trading data.",
+      "categories": [
+        "Exchange",
+        "Market data"
+      ],
+      "protocols": [
+        "REST",
+        "WebSocket"
+      ],
+      "access": "Public + auth",
+      "freeAccess": true,
+      "apiBaseUrl": "https://fapi.binance.com/fapi/v1",
+      "documentationUrl": "https://developers.binance.com/docs/derivatives/usds-margined-futures/general-info",
+      "websiteUrl": "https://www.binance.com/en/futures",
+      "usedFor": "Premium index and funding",
+      "lastVerifiedAt": "2026-07-16"
+    },
+    {"slug":"binance-spot","name":"Binance Spot","description":"Spot markets, order books, trades, account data and automated trading.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.binance.com/api/v3","documentationUrl":"https://developers.binance.com/en/docs/products/spot/rest-api","websiteUrl":"https://www.binance.com/","usedFor":"Spot market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"coinbase-advanced","name":"Coinbase Advanced","description":"Advanced spot trading, portfolios, orders and real-time market data.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.coinbase.com/api/v3/brokerage","documentationUrl":"https://docs.cdp.coinbase.com/api-reference/advanced-trade-api/rest-api/introduction","websiteUrl":"https://www.coinbase.com/advanced-trade","usedFor":"Spot market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"kraken","name":"Kraken","description":"Spot and derivatives market data, account management and trading.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.kraken.com/0","documentationUrl":"https://docs.kraken.com/","websiteUrl":"https://www.kraken.com/","usedFor":"Markets, accounts and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"okx","name":"OKX","description":"Unified spot, margin, futures, swaps and options trading API.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://www.okx.com/api/v5","documentationUrl":"https://www.okx.com/docs-v5/en/","websiteUrl":"https://www.okx.com/","usedFor":"Multi-product market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bybit","name":"Bybit","description":"Unified spot, perpetual, futures and options market and trading API.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.bybit.com/v5","documentationUrl":"https://bybit-exchange.github.io/docs/v5/intro","websiteUrl":"https://www.bybit.com/","usedFor":"Markets, derivatives and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"kucoin","name":"KuCoin","description":"Spot, margin and futures market data, accounts and order execution.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.kucoin.com","documentationUrl":"https://www.kucoin.com/docs-new/","websiteUrl":"https://www.kucoin.com/","usedFor":"Spot and futures trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"gate","name":"Gate","description":"Spot, margin, perpetual and delivery futures through API v4.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.gateio.ws/api/v4","documentationUrl":"https://www.gate.com/docs/developers/apiv4/en/","websiteUrl":"https://www.gate.com/","usedFor":"Multi-market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitget","name":"Bitget","description":"Spot, margin and derivatives data with account and trading operations.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.bitget.com/api/v2","documentationUrl":"https://www.bitget.com/api-doc/common/intro","websiteUrl":"https://www.bitget.com/","usedFor":"Markets, accounts and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"mexc","name":"MEXC","description":"Spot and contract tickers, order books, accounts and automated trading.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.mexc.com/api/v3","documentationUrl":"https://mexcdevelop.github.io/apidocs/spot_v3_en/","websiteUrl":"https://www.mexc.com/","usedFor":"Spot market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"crypto-com-exchange","name":"Crypto.com Exchange","description":"Spot and derivatives instruments, order books, accounts and trading.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.crypto.com/exchange/v1","documentationUrl":"https://exchange-developer.crypto.com/exchange/v1","websiteUrl":"https://crypto.com/exchange","usedFor":"Markets and order execution","lastVerifiedAt":"2026-07-17"},
+    {"slug":"gemini","name":"Gemini","description":"Spot market data, order events, account balances and trading.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.gemini.com/v1","documentationUrl":"https://developer.gemini.com/","websiteUrl":"https://www.gemini.com/","usedFor":"Spot data and order management","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitfinex","name":"Bitfinex","description":"Spot and derivatives books, trades, candles, accounts and orders.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api-pub.bitfinex.com/v2","documentationUrl":"https://docs.bitfinex.com/docs/introduction","websiteUrl":"https://www.bitfinex.com/","usedFor":"Market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"htx","name":"HTX","description":"Spot, margin and derivatives market data with trading endpoints.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.huobi.pro","documentationUrl":"https://www.htx.com/en-us/opend/newApiPages/","websiteUrl":"https://www.htx.com/","usedFor":"Markets, accounts and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"upbit","name":"Upbit","description":"Spot quotation, order, asset, deposit and withdrawal APIs.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.upbit.com/v1","documentationUrl":"https://global-docs.upbit.com/reference/api-overview","websiteUrl":"https://upbit.com/","usedFor":"Spot quotes and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bithumb","name":"Bithumb","description":"Korean spot market tickers, order books, accounts and orders.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.bithumb.com/v1","documentationUrl":"https://apidocs.bithumb.com/","websiteUrl":"https://www.bithumb.com/","usedFor":"Spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"coinex","name":"CoinEx","description":"Spot and futures market data, balances, positions and trading.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.coinex.com/v2","documentationUrl":"https://docs.coinex.com/api/v2/","websiteUrl":"https://www.coinex.com/","usedFor":"Spot and futures trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitmart","name":"BitMart","description":"Spot and futures tickers, depth, account data and order execution.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api-cloud.bitmart.com","documentationUrl":"https://developer-pro.bitmart.com/en/spot/","websiteUrl":"https://www.bitmart.com/","usedFor":"Market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bingx","name":"BingX","description":"Spot and perpetual market data, accounts, positions and trading.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://open-api.bingx.com/openApi","documentationUrl":"https://bingx-api.github.io/docs/","websiteUrl":"https://bingx.com/","usedFor":"Spot and perpetual trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"whitebit","name":"WhiteBIT","description":"Spot and futures public data plus authenticated trading operations.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://whitebit.com/api/v4","documentationUrl":"https://docs.whitebit.com/","websiteUrl":"https://whitebit.com/","usedFor":"Market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"lbank","name":"LBank","description":"Spot market pairs, tickers, depth, account information and orders.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.lbkex.com/v2","documentationUrl":"https://lbank-exchange.github.io/lbank-official-api-docs/","websiteUrl":"https://www.lbank.com/","usedFor":"Spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"phemex","name":"Phemex","description":"Spot and derivatives products, prices, positions and order management.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.phemex.com","documentationUrl":"https://phemex-docs.github.io/","websiteUrl":"https://phemex.com/","usedFor":"Markets, positions and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"deribit","name":"Deribit","description":"Crypto options, perpetuals and futures market data and trading.","categories":["Centralized Exchange","Derivatives"],"protocols":["REST","WebSocket","JSON-RPC"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://www.deribit.com/api/v2","documentationUrl":"https://docs.deribit.com/","websiteUrl":"https://www.deribit.com/","usedFor":"Options and derivatives trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitmex","name":"BitMEX","description":"Perpetual and futures instruments, order books, positions and orders.","categories":["Centralized Exchange","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://www.bitmex.com/api/v1","documentationUrl":"https://docs.bitmex.com/api-explorer/","websiteUrl":"https://www.bitmex.com/","usedFor":"Derivatives data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"blofin","name":"BloFin","description":"Spot and futures instruments, books, funding, accounts and trading.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://openapi.blofin.com/api/v1","documentationUrl":"https://docs.blofin.com/index.html","websiteUrl":"https://blofin.com/","usedFor":"Spot and futures trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"toobit","name":"Toobit","description":"Spot and futures quotes, order books, accounts and order APIs.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.toobit.com/api/v1","documentationUrl":"https://api-docs.toobit.com/","websiteUrl":"https://www.toobit.com/","usedFor":"Market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"xt","name":"XT.COM","description":"Spot and derivatives market data, account state and trading APIs.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://sapi.xt.com/v4","documentationUrl":"https://doc.xt.com/","websiteUrl":"https://www.xt.com/","usedFor":"Spot and derivatives trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"ascendex","name":"AscendEX","description":"Spot and futures products, depth, accounts, positions and orders.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://ascendex.com/api/pro/v1","documentationUrl":"https://ascendex.github.io/ascendex-pro-api/","websiteUrl":"https://ascendex.com/","usedFor":"Markets and automated trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"poloniex","name":"Poloniex","description":"Spot and futures markets, books, accounts and order execution.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.poloniex.com","documentationUrl":"https://api-docs.poloniex.com/spot/","websiteUrl":"https://poloniex.com/","usedFor":"Spot and futures trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"hitbtc","name":"HitBTC","description":"Spot market symbols, tickers, order books, balances and orders.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.hitbtc.com/api/3","documentationUrl":"https://api.hitbtc.com/","websiteUrl":"https://hitbtc.com/","usedFor":"Spot market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"probit-global","name":"ProBit Global","description":"Spot market data, account balances, order placement and history.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.probit.com/api/exchange/v1","documentationUrl":"https://docs-en.probit.com/","websiteUrl":"https://www.probit.com/","usedFor":"Spot data and order management","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitstamp","name":"Bitstamp","description":"Spot tickers, books, transactions, balances and order management.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://www.bitstamp.net/api/v2","documentationUrl":"https://www.bitstamp.net/api/","websiteUrl":"https://www.bitstamp.net/","usedFor":"Spot market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitvavo","name":"Bitvavo","description":"Euro spot markets, books, candles, account data and trading.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.bitvavo.com/v2","documentationUrl":"https://docs.bitvavo.com/","websiteUrl":"https://bitvavo.com/","usedFor":"EUR spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"cex-io","name":"CEX.IO","description":"Spot price, order book, account balance and trading endpoints.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://cex.io/api","documentationUrl":"https://cex.io/rest-api","websiteUrl":"https://cex.io/","usedFor":"Spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"exmo","name":"EXMO","description":"Spot pair settings, tickers, order books, accounts and orders.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.exmo.com/v1.1","documentationUrl":"https://exmo.com/en/api_doc","websiteUrl":"https://exmo.com/","usedFor":"Spot market data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"coinmetro","name":"Coinmetro","description":"Spot markets, prices, exchange information and account operations.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.coinmetro.com/open","documentationUrl":"https://documentation.coinmetro.com/","websiteUrl":"https://coinmetro.com/","usedFor":"Market data and account access","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitso","name":"Bitso","description":"Latin American spot books, trades, balances and order execution.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.bitso.com/v3","documentationUrl":"https://docs.bitso.com/bitso-api/docs/api-overview","websiteUrl":"https://bitso.com/","usedFor":"Regional spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"mercado-bitcoin","name":"Mercado Bitcoin","description":"Brazilian spot markets, order books, accounts and trading.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.mercadobitcoin.net/api/v4","documentationUrl":"https://docs.mercadobitcoin.com.br/","websiteUrl":"https://www.mercadobitcoin.com.br/","usedFor":"BRL spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"independent-reserve","name":"Independent Reserve","description":"Australian spot order books, trades, accounts and order management.","categories":["Centralized Exchange","Spot"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.independentreserve.com","documentationUrl":"https://independentreserve.github.io/","websiteUrl":"https://www.independentreserve.com/","usedFor":"AUD spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"btc-markets","name":"BTC Markets","description":"Australian spot markets, order books, accounts and trading APIs.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.btcmarkets.net/v3","documentationUrl":"https://api.btcmarkets.net/doc/v3","websiteUrl":"https://www.btcmarkets.net/","usedFor":"AUD spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"wazirx","name":"WazirX","description":"Indian spot exchange information, books, trades and order APIs.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.wazirx.com/sapi/v1","documentationUrl":"https://docs.wazirx.com/","websiteUrl":"https://wazirx.com/","usedFor":"INR spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"coindcx","name":"CoinDCX","description":"Indian spot and derivatives market data, accounts and trading.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.coindcx.com","documentationUrl":"https://docs.coindcx.com/","websiteUrl":"https://coindcx.com/","usedFor":"Spot and derivatives trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitbank","name":"bitbank","description":"Japanese spot pairs, tickers, depth, assets and order management.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://public.bitbank.cc","documentationUrl":"https://github.com/bitbankinc/bitbank-api-docs","websiteUrl":"https://bitbank.cc/","usedFor":"JPY spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"coincheck","name":"Coincheck","description":"Japanese spot order books, trades, accounts and exchange orders.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://coincheck.com/api","documentationUrl":"https://coincheck.com/documents/exchange/api","websiteUrl":"https://coincheck.com/","usedFor":"JPY spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"zaif","name":"Zaif","description":"Japanese spot currency pairs, tickers, depth and authenticated trading.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.zaif.jp/api/1","documentationUrl":"https://zaif-api-document.readthedocs.io/ja/latest/","websiteUrl":"https://zaif.jp/","usedFor":"JPY spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"coinone","name":"Coinone","description":"Korean spot markets, charts, order books, accounts and orders.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.coinone.co.kr/public/v2","documentationUrl":"https://docs.coinone.co.kr/","websiteUrl":"https://coinone.co.kr/","usedFor":"KRW spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"korbit","name":"Korbit","description":"Korean spot tickers, order books, transactions and account trading.","categories":["Centralized Exchange","Spot"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.korbit.co.kr/v1","documentationUrl":"https://docs.korbit.co.kr/","websiteUrl":"https://www.korbit.co.kr/","usedFor":"KRW spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"valr","name":"VALR","description":"South African spot and futures books, accounts and order execution.","categories":["Centralized Exchange","Spot","Derivatives"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.valr.com/v1","documentationUrl":"https://docs.valr.com/","websiteUrl":"https://www.valr.com/","usedFor":"ZAR markets and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"luno","name":"Luno","description":"Regional spot tickers, order books, accounts and exchange trading.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.luno.com/api/1","documentationUrl":"https://www.luno.com/en/developers/api","websiteUrl":"https://www.luno.com/","usedFor":"Regional spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"coins-ph","name":"Coins.ph","description":"Philippine spot exchange markets, depth, accounts and order APIs.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.pro.coins.ph/openapi/v1","documentationUrl":"https://docs.coins.ph/rest-api/","websiteUrl":"https://coins.ph/","usedFor":"PHP spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"ndax","name":"NDAX","description":"Canadian spot instruments, level-two data, accounts and trading.","categories":["Centralized Exchange","Spot"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.ndax.io:8443/AP","documentationUrl":"https://apidoc.ndax.io/","websiteUrl":"https://ndax.io/","usedFor":"CAD spot data and trading","lastVerifiedAt":"2026-07-17"},
+    {"slug":"opensea-nft-api","name":"OpenSea NFT API","description":"NFT metadata, collections, ownership, marketplace events, listings and analytics.","categories":["NFT Data","Marketplace Data"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.opensea.io/api/v2","documentationUrl":"https://docs.opensea.io/reference/api-overview","websiteUrl":"https://opensea.io/","usedFor":"NFT discovery and marketplace data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"reservoir-nft-api","name":"Reservoir NFT API","description":"Aggregated NFT orders, sales, collections, tokens, users and marketplace liquidity.","categories":["NFT Data","Marketplace Data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.reservoir.tools","documentationUrl":"https://reservoirprotocol.readme.io/reference/overview","websiteUrl":"https://reservoir.tools/","usedFor":"Aggregated NFT market data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"alchemy-nft-api","name":"Alchemy NFT API","description":"Multi-chain NFT metadata, ownership, transfers, sales, rarity and spam detection.","categories":["NFT Data","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://eth-mainnet.g.alchemy.com/nft/v3","documentationUrl":"https://www.alchemy.com/docs/reference/nft-api-overview","websiteUrl":"https://www.alchemy.com/","usedFor":"NFT metadata and ownership","lastVerifiedAt":"2026-07-17"},
+    {"slug":"moralis-nft-api","name":"Moralis NFT API","description":"Cross-chain NFT metadata, collections, owners, transfers, trades and sale prices.","categories":["NFT Data","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://deep-index.moralis.io/api/v2.2","documentationUrl":"https://docs.moralis.com/data-api/evm/nft/metadata/nft-metadata","websiteUrl":"https://moralis.com/","usedFor":"Cross-chain NFT data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"helius-das","name":"Helius DAS API","description":"Solana NFTs, compressed NFTs, metadata, ownership, collections and asset proofs.","categories":["NFT Data","On-chain data","Wallet & Portfolio APIs"],"protocols":["JSON-RPC"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://mainnet.helius-rpc.com","documentationUrl":"https://www.helius.dev/docs/das-api","websiteUrl":"https://www.helius.dev/","usedFor":"Solana NFT and compressed NFT data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"nftscan","name":"NFTScan","description":"Multi-chain NFT assets, collections, transactions, marketplace orders and activity streams.","categories":["NFT Data","Marketplace Data"],"protocols":["REST","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://restapi.nftscan.com/api/v2","documentationUrl":"https://docs.nftscan.com/","websiteUrl":"https://www.nftscan.com/","usedFor":"NFT assets and marketplace activity","lastVerifiedAt":"2026-07-17"},
+    {"slug":"chainbase-nft-api","name":"Chainbase NFT API","description":"Multi-chain NFT metadata, ownership, rarity and transfer data through Web3 API.","categories":["NFT Data","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.chainbase.com/v1","documentationUrl":"https://docs.chainbase.com/resources/platform/features/api/web3-api","websiteUrl":"https://chainbase.com/","usedFor":"Indexed NFT ownership and metadata","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitquery-nft-api","name":"Bitquery NFT API","description":"Historical and real-time NFT holders, transfers, trades and marketplace analytics.","categories":["NFT Data","On-chain data"],"protocols":["GraphQL","WebSocket"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://streaming.bitquery.io/graphql","documentationUrl":"https://docs.bitquery.io/docs/blockchain/Ethereum/nft/nft-api/","websiteUrl":"https://bitquery.io/","usedFor":"NFT analytics and live streams","lastVerifiedAt":"2026-07-17"},
+    {"slug":"goldrush-nft-api","name":"GoldRush NFT API","description":"Multi-chain NFT balances, media, metadata, sales, owners, traits and approvals.","categories":["NFT Data","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":false,"apiBaseUrl":"https://api.covalenthq.com/v1","documentationUrl":"https://goldrush.dev/docs/goldrush-foundational-api/overview","websiteUrl":"https://goldrush.dev/","usedFor":"Wallet NFT balances and metadata","lastVerifiedAt":"2026-07-17"},
+    {"slug":"rarible-api","name":"Rarible API","description":"Multi-chain NFT items, collections, ownership, activities and aggregated order books.","categories":["NFT Data","Marketplace Data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.rarible.org/v0.1","documentationUrl":"https://docs.rarible.org/reference/getting-started","websiteUrl":"https://rarible.org/","usedFor":"NFT indexer and executable market data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"coingecko-nft-api","name":"CoinGecko NFT API","description":"NFT collection listings, floor prices, market caps, volumes and marketplace tickers.","categories":["NFT Data","Market data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.coingecko.com/api/v3/nfts","documentationUrl":"https://docs.coingecko.com/reference/endpoint-overview","websiteUrl":"https://www.coingecko.com/en/nft","usedFor":"NFT collection market metrics","lastVerifiedAt":"2026-07-17"},
+    {"slug":"unleashnfts","name":"UnleashNFTs","description":"NFT collections, wallets, transactions, floor prices, estimates and market insights.","categories":["NFT Data","Market data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.unleashnfts.com/api/v2","documentationUrl":"https://unleashnfts.com/docs","websiteUrl":"https://unleashnfts.com/","usedFor":"NFT analytics and price estimates","lastVerifiedAt":"2026-07-17"},
+    {"slug":"shyft-nft-api","name":"Shyft NFT API","description":"Solana NFT metadata, owners, collections, attribute search and wallet holdings.","categories":["NFT Data","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.shyft.to/sol/v1/nft","documentationUrl":"https://docs.shyft.to/solana-apis/api-reference","websiteUrl":"https://shyft.to/","usedFor":"Solana NFT data and collection search","lastVerifiedAt":"2026-07-17"},
+    {"slug":"uniswap-trading-api","name":"Uniswap Trading API","description":"Quotes, routing, approvals, transaction construction and swap execution across supported chains.","categories":["DEX APIs","Swap Aggregator"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://trade-api.gateway.uniswap.org/v1","documentationUrl":"https://developers.uniswap.org/docs/trading/swapping-api/integration-guide","websiteUrl":"https://uniswap.org/","usedFor":"DEX quotes and swap execution","lastVerifiedAt":"2026-07-17"},
+    {"slug":"1inch-swap-api","name":"1inch Swap API","description":"Liquidity aggregation, token quotes and executable swap transactions across EVM networks.","categories":["DEX APIs","Swap Aggregator"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.1inch.com/swap/v6.1","documentationUrl":"https://business.1inch.com/portal/documentation/apis/swap/classic-swap/introduction","websiteUrl":"https://1inch.io/","usedFor":"Aggregated swap quotes and routing","lastVerifiedAt":"2026-07-17"},
+    {"slug":"0x-swap-api","name":"0x Swap API","description":"Aggregated on-chain liquidity, indicative prices, firm quotes and executable swap calldata.","categories":["DEX APIs","Swap Aggregator"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.0x.org","documentationUrl":"https://docs.0x.org/api-reference/api-overview","websiteUrl":"https://0x.org/","usedFor":"DEX liquidity aggregation and swaps","lastVerifiedAt":"2026-07-17"},
+    {"slug":"jupiter-swap-api","name":"Jupiter Swap API","description":"Solana swap orders, optimal routing and transaction execution through Jupiter Swap V2.","categories":["DEX APIs","Swap Aggregator","Solana"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.jup.ag/swap/v2","documentationUrl":"https://developers.jup.ag/docs/swap/order-and-execute","websiteUrl":"https://jup.ag/","usedFor":"Solana swap routing and execution","lastVerifiedAt":"2026-07-17"},
+    {"slug":"cow-protocol-orderbook-api","name":"CoW Protocol Orderbook API","description":"Intent-based order quotes, signing payloads, order submission and status tracking.","categories":["DEX APIs","Swap Aggregator"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.cow.fi/mainnet/api/v1","documentationUrl":"https://cowswap.mintlify.app/cow-protocol/reference/apis/orderbook","websiteUrl":"https://cow.fi/","usedFor":"Intent quotes and order execution","lastVerifiedAt":"2026-07-17"},
+    {"slug":"kyberswap-aggregator-api","name":"KyberSwap Aggregator API","description":"Multi-chain route discovery, token quotes and encoded transaction data for swaps.","categories":["DEX APIs","Swap Aggregator"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://aggregator-api.kyberswap.com","documentationUrl":"https://docs.kyberswap.com/kyberswap-solutions/kyberswap-aggregator/developer-guides/execute-a-swap-with-the-aggregator-api","websiteUrl":"https://kyberswap.com/","usedFor":"Multi-chain swap routing","lastVerifiedAt":"2026-07-17"},
+    {"slug":"velora-api","name":"Velora API","description":"DEX aggregation, market pricing and gas-efficient swap execution across supported networks.","categories":["DEX APIs","Swap Aggregator"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.paraswap.io","documentationUrl":"https://developers.velora.xyz/api/velora-api/velora-delta-api/overview","websiteUrl":"https://velora.xyz/","usedFor":"DEX quotes and optimized swaps","lastVerifiedAt":"2026-07-17"},
+    {"slug":"openocean-swap-api","name":"OpenOcean Swap API","description":"Cross-chain DEX aggregation with quotes, routes and transaction construction through API V4.","categories":["DEX APIs","Swap Aggregator"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://open-api.openocean.finance/v4","documentationUrl":"https://apis.openocean.finance/developer/apis/swap-api/api-v4","websiteUrl":"https://openocean.finance/","usedFor":"DEX aggregation and swap transactions","lastVerifiedAt":"2026-07-17"},
+    {"slug":"lifi-api","name":"LI.FI API","description":"Cross-chain quotes and executable routes spanning bridges, DEXs and multiple ecosystems.","categories":["DEX APIs","Swap Aggregator","Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://li.quest/v1","documentationUrl":"https://docs.li.fi/api-reference/introduction","websiteUrl":"https://li.fi/","usedFor":"Cross-chain swaps and bridging routes","lastVerifiedAt":"2026-07-17"},
+    {"slug":"rango-api","name":"Rango API","description":"Cross-chain routing across DEXs and bridges with quotes, transaction creation and status tracking.","categories":["DEX APIs","Swap Aggregator","Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.rango.exchange","documentationUrl":"https://docs.rango.exchange/api-integration/api-key-and-rate-limits","websiteUrl":"https://rango.exchange/","usedFor":"Cross-chain DEX and bridge routing","lastVerifiedAt":"2026-07-17"},
+    {"slug":"dexscreener-api","name":"DEX Screener API","description":"Public pair discovery, token profiles, prices, liquidity, transactions and DEX market activity.","categories":["DEX APIs","Market data"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.dexscreener.com","documentationUrl":"https://docs.dexscreener.com/api/reference","websiteUrl":"https://dexscreener.com/","usedFor":"DEX pairs, prices and liquidity","lastVerifiedAt":"2026-07-17"},
+    {"slug":"geckoterminal-api","name":"GeckoTerminal API","description":"Public on-chain prices, pools, trades, liquidity and OHLCV data across DEXs and networks.","categories":["DEX APIs","Market data"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.geckoterminal.com/api/v2","documentationUrl":"https://apiguide.geckoterminal.com/getting-started","websiteUrl":"https://www.geckoterminal.com/","usedFor":"DEX pool analytics and OHLCV","lastVerifiedAt":"2026-07-17"},
+    {"slug":"birdeye-data-api","name":"Birdeye Data API","description":"Multi-chain token, market, pair, price and liquidity data for on-chain trading applications.","categories":["DEX APIs","Market data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://public-api.birdeye.so","documentationUrl":"https://docs.birdeye.so/reference","websiteUrl":"https://birdeye.so/","usedFor":"On-chain token and DEX market data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"raydium-api-v3","name":"Raydium API V3","description":"Canonical Solana pool, liquidity, token, farm, price and chain statistics from Raydium.","categories":["DEX APIs","Market data","Solana"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api-v3.raydium.io","documentationUrl":"https://docs.raydium.io/api-reference/api-v3/overview","websiteUrl":"https://raydium.io/","usedFor":"Raydium pools, prices and liquidity","lastVerifiedAt":"2026-07-17"},
+    {"slug":"okx-dex-api","name":"OKX DEX API","description":"Multi-chain token discovery, liquidity sources, quotes and executable swap transaction data.","categories":["DEX APIs","Swap Aggregator","Market data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://web3.okx.com/api/v6/dex","documentationUrl":"https://web3.okx.com/onchainos/dev-docs/trade/dex-swap","websiteUrl":"https://web3.okx.com/","usedFor":"Multi-chain DEX quotes and swaps","lastVerifiedAt":"2026-07-17"},
+    {"slug":"enso-api","name":"Enso API","description":"Optimized routes for swaps, DeFi positions, vault migrations and cross-chain transactions.","categories":["DEX APIs","Swap Aggregator","Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.enso.build/api/v1","documentationUrl":"https://docs.enso.build/pages/api-reference/overview","websiteUrl":"https://enso.build/","usedFor":"DeFi routing and transaction construction","lastVerifiedAt":"2026-07-17"},
+    {"slug":"rubic-api","name":"Rubic API","description":"Unified on-chain and cross-chain quotes, routes, swap calldata and transaction tracking.","categories":["DEX APIs","Swap Aggregator","Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api-v2.rubic.exchange/api","documentationUrl":"https://docs.rubic.finance/api-docs/about/overview","websiteUrl":"https://rubic.exchange/","usedFor":"Cross-chain and on-chain swaps","lastVerifiedAt":"2026-07-17"},
+    {"slug":"relay-api","name":"Relay API","description":"Executable quotes for fast cross-chain swaps, bridging and contract calls.","categories":["DEX APIs","Swap Aggregator","Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.relay.link","documentationUrl":"https://docs.relay.link/references/api/get-quote-v2","websiteUrl":"https://relay.link/","usedFor":"Cross-chain swap quotes and execution","lastVerifiedAt":"2026-07-17"},
+    {"slug":"quicknode-token-nft-api","name":"QuickNode Token and NFT API","description":"Indexed wallet NFTs, collection assets, metadata and token transaction history through JSON-RPC.","categories":["NFT Data","On-chain data","Wallet & Portfolio APIs"],"protocols":["JSON-RPC"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://your-endpoint.quiknode.pro","documentationUrl":"https://www.quicknode.com/docs/ethereum/qn_fetchNFTs_v2","websiteUrl":"https://www.quicknode.com/","usedFor":"Wallet NFTs and collection metadata","lastVerifiedAt":"2026-07-17"},
+    {"slug":"tatum-nft-api","name":"Tatum NFT API","description":"Multi-chain NFT collections, metadata, ownership, owners and wallet balances.","categories":["NFT Data","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.tatum.io/v4/data","documentationUrl":"https://docs.tatum.io/reference/nft-api","websiteUrl":"https://tatum.io/","usedFor":"NFT metadata, collections and ownership","lastVerifiedAt":"2026-07-17"},
+    {"slug":"thirdweb-insight-nft-api","name":"thirdweb Insight NFT API","description":"NFT tokens, collections, balances, owners, transfers and metadata across supported chains.","categories":["NFT Data","On-chain data","Wallet & Portfolio APIs"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://insight.thirdweb.com/v1","documentationUrl":"https://insight.thirdweb.com/reference","websiteUrl":"https://thirdweb.com/insight","usedFor":"NFT ownership, metadata and transfers","lastVerifiedAt":"2026-07-17"},
+    {"slug":"sequence-indexer","name":"Sequence Indexer","description":"Real-time ERC-721 and ERC-1155 balances, metadata, supplies and transaction history across EVM chains.","categories":["NFT Data","On-chain data","Gaming","Wallet & Portfolio APIs"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://indexer.sequence.app","documentationUrl":"https://docs.sequence.xyz/api-references/indexer/overview","websiteUrl":"https://sequence.xyz/","usedFor":"Multi-chain NFT balances and metadata","lastVerifiedAt":"2026-07-17"},
+    {"slug":"immutable-indexer-api","name":"Immutable Indexer API","description":"Immutable Chain NFTs, collections, ownership, activities, orders, listings and floor prices.","categories":["NFT Data","Marketplace Data","Gaming"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.immutable.com","documentationUrl":"https://docs.immutable.com/reference/api/","websiteUrl":"https://www.immutable.com/","usedFor":"Immutable NFT and marketplace data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"etherscan-nft-api","name":"Etherscan NFT API","description":"Multi-chain ERC-721 and ERC-1155 transfers, contract information and token metadata through API V2.","categories":["NFT Data","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.etherscan.io/v2/api","documentationUrl":"https://docs.etherscan.io/api-reference/endpoint/tokennfttx","websiteUrl":"https://etherscan.io/","usedFor":"NFT transfers and contract data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"blockscout-nft-api","name":"Blockscout NFT API","description":"NFT ownership, token instances, holders, transfers and metadata across Blockscout-supported chains.","categories":["NFT Data","On-chain data","Wallet & Portfolio APIs"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.blockscout.com","documentationUrl":"https://docs.blockscout.com/api-reference/get-list-of-nft-owned-by-address","websiteUrl":"https://www.blockscout.com/","usedFor":"Cross-chain NFT ownership and instances","lastVerifiedAt":"2026-07-17"},
+    {"slug":"ankr-nft-api","name":"Ankr NFT API","description":"Multi-chain NFT metadata, wallet holdings, holders and transfer history through Advanced API.","categories":["NFT Data","On-chain data"],"protocols":["JSON-RPC"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://rpc.ankr.com/multichain","documentationUrl":"https://www.ankr.com/docs/advanced-api/overview/","websiteUrl":"https://www.ankr.com/","usedFor":"Multi-chain NFT metadata and ownership","lastVerifiedAt":"2026-07-17"},
+    {"slug":"poap-api","name":"POAP API","description":"POAP event metadata, token ownership, deliveries and event-specific wallet holdings.","categories":["NFT Data","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.poap.tech","documentationUrl":"https://documentation.poap.tech/reference/getmetadata","websiteUrl":"https://poap.xyz/","usedFor":"POAP metadata and ownership","lastVerifiedAt":"2026-07-17"},
+    {"slug":"nftgo-api","name":"NFTGo API","description":"NFT metadata, collections, holders, prices, transactions, rankings, analytics and wallet portfolios.","categories":["NFT Data","Market data","Marketplace Data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://data-api.nftgo.io","documentationUrl":"https://docs.nftgo.io/reference/introduction","websiteUrl":"https://nftgo.io/","usedFor":"NFT analytics, pricing and portfolios","lastVerifiedAt":"2026-07-17"},
+    {"slug":"dune-nft-data-api","name":"Dune NFT Data API","description":"Queryable cross-chain NFT trades, mints, transfers, balances, metadata and marketplace analytics.","categories":["NFT Data","Market data","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.dune.com/api/v1","documentationUrl":"https://docs.dune.com/data-catalog/curated/nft-trades/overview","websiteUrl":"https://dune.com/","usedFor":"Custom NFT analytics and market datasets","lastVerifiedAt":"2026-07-17"},
+    {"slug":"across-api","name":"Across API","description":"Cross-chain bridge and swap quotes, fee estimates, route discovery, transaction data and deposit tracking.","categories":["Bridges","Cross-chain"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://app.across.to/api","documentationUrl":"https://docs.across.to/api-reference","websiteUrl":"https://across.to/","usedFor":"Bridge quotes, execution and status","lastVerifiedAt":"2026-07-17"},
+    {"slug":"squid-api","name":"Squid API","description":"Cross-chain routes, token swaps, bridge transactions and status tracking across EVM and Cosmos ecosystems.","categories":["Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://v2.api.squidrouter.com/v2","documentationUrl":"https://docs.squidrouter.com/api-and-sdk-integration","websiteUrl":"https://www.squidrouter.com/","usedFor":"Cross-chain routing and execution","lastVerifiedAt":"2026-07-17"},
+    {"slug":"debridge-dln-api","name":"deBridge DLN API","description":"Cross-chain intent order creation, order history, fulfillment metadata and lifecycle tracking.","categories":["Bridges","Cross-chain"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://dln-api.debridge.finance","documentationUrl":"https://docs.debridge.com/dln-details/integration-guidelines/order-creation/order-tracking-api/tracking-orders","websiteUrl":"https://debridge.com/","usedFor":"Cross-chain orders and status tracking","lastVerifiedAt":"2026-07-17"},
+    {"slug":"wormholescan-api","name":"Wormholescan API","description":"Wormhole cross-chain messages, VAAs, token transfers, transaction status and network activity.","categories":["Bridges","Cross-chain","On-chain data"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.wormholescan.io/api/v1","documentationUrl":"https://docs.wormhole.com/protocol/infrastructure/vaas/","websiteUrl":"https://wormholescan.io/","usedFor":"Wormhole messages and transfer data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"hop-api","name":"Hop API","description":"Bridge quotes, bonder fees, supported routes and transfer status across Ethereum scaling networks.","categories":["Bridges","Cross-chain"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.hop.exchange/v1","documentationUrl":"https://docs.hop.exchange/developer-docs/api/api","websiteUrl":"https://hop.exchange/","usedFor":"Bridge fee quotes and transfer status","lastVerifiedAt":"2026-07-17"},
+    {"slug":"mayan-quote-api","name":"Mayan Quote API","description":"Aggregated cross-chain swap quotes and routes connecting Solana, EVM networks and other ecosystems.","categories":["Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://price-api.mayan.finance/v3","documentationUrl":"https://docs.mayan.finance/integration/quote-api","websiteUrl":"https://mayan.finance/","usedFor":"Cross-chain quotes and routing","lastVerifiedAt":"2026-07-17"},
+    {"slug":"thorchain-api","name":"THORChain API","description":"Native cross-chain swap quotes, pools, liquidity, network state and transaction data through Thornode and Midgard.","categories":["Bridges","Cross-chain","Market data"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://thornode.thorchain.network","documentationUrl":"https://dev.thorchain.org/concepts/connecting-to-thorchain.html","websiteUrl":"https://thorchain.org/","usedFor":"Native-asset cross-chain swaps and data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"circle-cctp-api","name":"Circle CCTP API","description":"CCTP V2 messages, attestations, fast-transfer allowance and fees for native USDC transfers.","categories":["Bridges","Cross-chain"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://iris-api.circle.com/v2","documentationUrl":"https://developers.circle.com/cctp/references/technical-guide","websiteUrl":"https://www.circle.com/cross-chain-transfer-protocol","usedFor":"Native USDC bridge attestations","lastVerifiedAt":"2026-07-17"},
+    {"slug":"layerzero-value-transfer-api","name":"LayerZero Value Transfer API","description":"Unified quotes and execution routes across OFTs, Stargate, CCTP and intent-based transfer systems.","categories":["Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public + auth","freeAccess":false,"apiBaseUrl":"https://transfer.layerzero-api.com/v1","documentationUrl":"https://docs.layerzero.network/v2/developers/value-transfer-api/api-reference/overview","websiteUrl":"https://layerzero.network/","usedFor":"Cross-chain value transfer routing","lastVerifiedAt":"2026-07-17"},
+    {"slug":"xy-finance-api","name":"XY Finance API","description":"Multiple-bridge aggregation with cross-chain quotes, source and destination swaps, and transaction building.","categories":["Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://aggregator-api.xy.finance/v1","documentationUrl":"https://docs.xy.finance/bridge-aggregator-integration/xy-finance-api-multiple-bridges-aggregator/get-quote","websiteUrl":"https://xy.finance/","usedFor":"Bridge aggregation and cross-chain swaps","lastVerifiedAt":"2026-07-17"},
+    {"slug":"orbiter-finance-api","name":"Orbiter Finance API","description":"Cross-chain and on-chain routes, bridge quotes, execution steps and transaction status.","categories":["Bridges","Bridge Aggregator","Cross-chain"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://openapi.orbiter.finance","documentationUrl":"https://docs.orbiter.finance/developer/rest-api/api-reference","websiteUrl":"https://www.orbiter.finance/","usedFor":"Cross-chain bridge quotes and execution","lastVerifiedAt":"2026-07-17"},
+    {"slug":"zerion-wallet-api","name":"Zerion Wallet API","description":"Normalized multichain wallet portfolios, fungible and DeFi positions, transactions, NFTs and PnL.","categories":["Wallet & Portfolio APIs","DeFi analytics","On-chain data","Lending & Borrowing APIs"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.zerion.io/v1","documentationUrl":"https://developers.zerion.io/endpoints-and-schema","websiteUrl":"https://zerion.io/","usedFor":"Wallet portfolios, positions, history and PnL","lastVerifiedAt":"2026-07-17"},
+    {"slug":"debank-openapi","name":"DeBank OpenAPI","description":"Cross-chain wallet balances, token holdings, DeFi protocol positions, NFTs and transaction history.","categories":["Wallet & Portfolio APIs","DeFi analytics","On-chain data","Lending & Borrowing APIs"],"protocols":["REST"],"access":"Public + auth","freeAccess":false,"apiBaseUrl":"https://pro-openapi.debank.com/v1","documentationUrl":"https://docs.cloud.debank.com/en/readme/api-pro-reference/user","websiteUrl":"https://debank.com/","usedFor":"Net worth, token balances and DeFi positions","lastVerifiedAt":"2026-07-17"},
+    {"slug":"moralis-wallet-api","name":"Moralis Wallet API","description":"Decoded multichain wallet history, token balances, transfers, DeFi positions, approvals and PnL.","categories":["Wallet & Portfolio APIs","On-chain data","DeFi analytics","Lending & Borrowing APIs"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://deep-index.moralis.io/api/v2.2","documentationUrl":"https://docs.moralis.com/get-started/global-api-reference","websiteUrl":"https://moralis.com/","usedFor":"Wallet balances, activity, positions and PnL","lastVerifiedAt":"2026-07-17"},
+    {"slug":"alchemy-portfolio-api","name":"Alchemy Portfolio API","description":"Multi-chain fungible tokens, NFT holdings and transaction history for one or many wallet addresses.","categories":["Wallet & Portfolio APIs","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.g.alchemy.com/data/v1","documentationUrl":"https://www.alchemy.com/docs/reference/portfolio-apis","websiteUrl":"https://www.alchemy.com/","usedFor":"Cross-chain wallet assets and activity","lastVerifiedAt":"2026-07-17"},
+    {"slug":"goldrush-wallet-api","name":"GoldRush Wallet API","description":"Token and native balances, historical prices, transfers and wallet activity across more than 100 chains.","categories":["Wallet & Portfolio APIs","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.covalenthq.com/v1","documentationUrl":"https://goldrush.dev/docs/goldrush-foundational-api/overview","websiteUrl":"https://goldrush.dev/","usedFor":"Multichain balances, transfers and activity feeds","lastVerifiedAt":"2026-07-17"},
+    {"slug":"dune-sim-wallet-api","name":"Dune Sim Wallet API","description":"Real-time wallet balances, token metadata, transaction history and activity across EVM chains and Solana.","categories":["Wallet & Portfolio APIs","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.sim.dune.com/v1","documentationUrl":"https://docs.sim.dune.com/","websiteUrl":"https://sim.dune.com/","usedFor":"Realtime multichain wallet balances and history","lastVerifiedAt":"2026-07-17"},
+    {"slug":"tatum-wallet-portfolio-api","name":"Tatum Wallet Portfolio API","description":"Native, fungible, NFT and multitoken balances for wallets across EVM, Solana, Tezos and other chains.","categories":["Wallet & Portfolio APIs","On-chain data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.tatum.io/v4/data/wallet","documentationUrl":"https://docs.tatum.io/reference/getwalletportfoliov4","websiteUrl":"https://tatum.io/","usedFor":"Wallet portfolio balances and asset metadata","lastVerifiedAt":"2026-07-17"},
+    {"slug":"mobula-wallet-api","name":"Mobula Wallet API","description":"Aggregated wallet holdings, USD allocation, DeFi positions, history and realized or unrealized PnL.","categories":["Wallet & Portfolio APIs","DeFi analytics","On-chain data","Lending & Borrowing APIs"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://api.mobula.io/api/1","documentationUrl":"https://docs.mobula.io/rest-api-reference/endpoint/wallet-portfolio","websiteUrl":"https://mobula.io/","usedFor":"Portfolio valuation, allocation and PnL","lastVerifiedAt":"2026-07-17"},
+    {"slug":"birdeye-wallet-api","name":"Birdeye Wallet API","description":"Wallet portfolios, transaction activity and realized or unrealized PnL across Solana and major EVM chains.","categories":["Wallet & Portfolio APIs","On-chain data","Market data"],"protocols":["REST"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://public-api.birdeye.so","documentationUrl":"https://docs.birdeye.so/reference/get-wallet-v2-pnl","websiteUrl":"https://birdeye.so/","usedFor":"Wallet holdings, activity and PnL analytics","lastVerifiedAt":"2026-07-17"},
+    {"slug":"nansen-portfolio-api","name":"Nansen Portfolio API","description":"Wallet balances and active DeFi holdings with protocol, debt, reward and token-level breakdowns.","categories":["Wallet & Portfolio APIs","DeFi analytics","On-chain data","Lending & Borrowing APIs"],"protocols":["REST"],"access":"Public + auth","freeAccess":false,"apiBaseUrl":"https://api.nansen.ai/api/v1","documentationUrl":"https://docs.nansen.ai/api/portfolio","websiteUrl":"https://www.nansen.ai/","usedFor":"DeFi positions and wallet portfolio analytics","lastVerifiedAt":"2026-07-17"},
+    {"slug":"bitquery-balances-api","name":"Bitquery Balances API","description":"Current and historical wallet balances, holdings and balance-change streams across multiple blockchains.","categories":["Wallet & Portfolio APIs","On-chain data"],"protocols":["GraphQL"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://streaming.bitquery.io/graphql","documentationUrl":"https://docs.bitquery.io/docs/blockchain/Ethereum/balances/","websiteUrl":"https://bitquery.io/","usedFor":"Wallet balances, holdings and historical snapshots","lastVerifiedAt":"2026-07-17"},
+    {"slug":"zapper-api","name":"Zapper API","description":"Wallet token balances, DeFi positions and transaction data for portfolio applications.","categories":["Wallet & Portfolio APIs","DeFi analytics","On-chain data","Lending & Borrowing APIs"],"protocols":["REST","GraphQL"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://public.zapper.xyz","documentationUrl":"https://docs.zapper.xyz/","websiteUrl":"https://zapper.xyz/","usedFor":"Wallet balances and DeFi portfolio data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"aave-data-api","name":"Aave Data API","description":"GraphQL access to Aave markets, reserves, supply and borrow positions, rates and protocol actions.","categories":["Lending & Borrowing APIs","DeFi analytics","On-chain data"],"protocols":["GraphQL"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.v3.aave.com/graphql","documentationUrl":"https://aave.com/build","websiteUrl":"https://aave.com/","usedFor":"Aave markets, rates, positions and transactions","lastVerifiedAt":"2026-07-17"},
+    {"slug":"morpho-api","name":"Morpho API","description":"Indexed GraphQL data for Morpho markets, vaults, positions, rates, liquidity and historical activity.","categories":["Lending & Borrowing APIs","DeFi analytics","On-chain data"],"protocols":["GraphQL"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.morpho.org/graphql","documentationUrl":"https://docs.morpho.org/build/borrow/tutorials/get-data/","websiteUrl":"https://morpho.org/","usedFor":"Morpho market discovery, positions and rates","lastVerifiedAt":"2026-07-17"},
+    {"slug":"euler-v3-api","name":"Euler V3 API","description":"Indexed Euler vaults, chains, account positions, activity, debt holders, events and historical risk data.","categories":["Lending & Borrowing APIs","DeFi analytics","On-chain data"],"protocols":["REST","GraphQL"],"access":"Public + auth","freeAccess":true,"apiBaseUrl":"https://v3.euler.finance/v3","documentationUrl":"https://docs.euler.finance/developers/data-querying/euler-v3-api/","websiteUrl":"https://www.euler.finance/","usedFor":"Euler lending vaults, positions and risk analytics","lastVerifiedAt":"2026-07-17"},
+    {"slug":"venus-protocol-api","name":"Venus Protocol API","description":"Public indexed market, pool, account activity, supply and borrow APY history across Venus deployments.","categories":["Lending & Borrowing APIs","DeFi analytics","On-chain data"],"protocols":["REST"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.venus.io","documentationUrl":"https://docs-v4.venus.io/services/api","websiteUrl":"https://venus.io/","usedFor":"Venus markets, activities and rate history","lastVerifiedAt":"2026-07-17"},
+    {"slug":"kamino-lend-api","name":"Kamino Lend API","description":"Solana lending market data, reserves, user positions, loan health, historical yield and transaction building.","categories":["Lending & Borrowing APIs","Solana","On-chain data"],"protocols":["REST","JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.kamino.finance","documentationUrl":"https://kamino.com/docs","websiteUrl":"https://kamino.com/","usedFor":"Kamino lending markets, positions and transactions","lastVerifiedAt":"2026-07-17"},
+    {"slug":"save-solend-api","name":"Save / Solend API","description":"Real-time Solana lending market information, reserves, APYs and integration data through REST and SDK.","categories":["Lending & Borrowing APIs","Solana","On-chain data"],"protocols":["REST","JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.solend.fi","documentationUrl":"https://dev.solend.fi/","websiteUrl":"https://save.finance/","usedFor":"Solana lending reserves, rates and positions","lastVerifiedAt":"2026-07-17"},
+    {"slug":"compound-iii-api","name":"Compound III Contract API","description":"On-chain Comet interfaces for markets, collateral, utilization, rates, account balances and liquidations.","categories":["Lending & Borrowing APIs","On-chain data"],"protocols":["JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://ethereum-rpc.publicnode.com","documentationUrl":"https://docs.compound.finance/","websiteUrl":"https://compound.finance/","usedFor":"Compound III market and account state","lastVerifiedAt":"2026-07-17"},
+    {"slug":"moonwell-sdk-api","name":"Moonwell SDK API","description":"TypeScript interfaces for Moonwell market data, user supply and borrow positions, rewards and governance.","categories":["Lending & Borrowing APIs","SDK","On-chain data"],"protocols":["JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://mainnet.base.org","documentationUrl":"https://docs.moonwell.fi/moonwell/developers/moonwell-sdk","websiteUrl":"https://moonwell.fi/","usedFor":"Moonwell markets, positions and rewards","lastVerifiedAt":"2026-07-17"},
+    {"slug":"benqi-lending-api","name":"BENQI Lending Contract API","description":"Avalanche lending positions, market state and historical activity through official contracts and subgraphs.","categories":["Lending & Borrowing APIs","On-chain data"],"protocols":["JSON-RPC","GraphQL"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.avax.network/ext/bc/C/rpc","documentationUrl":"https://docs.benqi.fi/developers/overview","websiteUrl":"https://benqi.fi/","usedFor":"BENQI markets, positions and historical lending data","lastVerifiedAt":"2026-07-17"},
+    {"slug":"suilend-sdk-api","name":"Suilend SDK API","description":"Sui lending market, reserve, obligation, deposit, borrow, repay, reward and liquidation interfaces.","categories":["Lending & Borrowing APIs","SDK","On-chain data"],"protocols":["JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://fullnode.mainnet.sui.io:443","documentationUrl":"https://docs.suilend.fi/ecosystem/suilend-sdk-guide/suilend-sdk-api-reference","websiteUrl":"https://suilend.fi/","usedFor":"Suilend markets, obligations and lending actions","lastVerifiedAt":"2026-07-17"},
+    {"slug":"navi-lending-api","name":"NAVI Lending Contract API","description":"Sui contract interfaces for deposits, withdrawals, borrowing, repayment, collateral and liquidations.","categories":["Lending & Borrowing APIs","On-chain data"],"protocols":["JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://fullnode.mainnet.sui.io:443","documentationUrl":"https://docs.naviprotocol.io/technical/technical-docs/technical-reference/api-reference/pool","websiteUrl":"https://naviprotocol.io/","usedFor":"NAVI lending pools and user operations","lastVerifiedAt":"2026-07-17"},
+    {"slug":"scallop-sdk-api","name":"Scallop SDK API","description":"Sui money-market SDK for lending, borrowing, collateral, flash loans and programmable transaction building.","categories":["Lending & Borrowing APIs","SDK","On-chain data"],"protocols":["JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://fullnode.mainnet.sui.io:443","documentationUrl":"https://docs.scallop.io/","websiteUrl":"https://scallop.io/","usedFor":"Scallop market data and lending transactions","lastVerifiedAt":"2026-07-17"},
+    {"slug":"liquity-sdk-api","name":"Liquity SDK API","description":"Typed read and transaction interfaces for Liquity collateral, debt, troves, stability pools and redemptions.","categories":["Lending & Borrowing APIs","SDK","On-chain data"],"protocols":["JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://ethereum-rpc.publicnode.com","documentationUrl":"https://docs.liquity.org/liquity-v1/documentation/sdk","websiteUrl":"https://www.liquity.org/","usedFor":"Liquity loans, collateral and protocol state","lastVerifiedAt":"2026-07-17"},
+    {"slug":"dolomite-margin-api","name":"Dolomite Margin Contract API","description":"On-chain getters for markets, balances, supplied and borrowed value, rates, margin and liquidation state.","categories":["Lending & Borrowing APIs","On-chain data"],"protocols":["JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://arb1.arbitrum.io/rpc","documentationUrl":"https://docs.dolomite.io/developer-documentation/dolomite-margin-getters","websiteUrl":"https://dolomite.io/","usedFor":"Dolomite markets, borrow positions and risk","lastVerifiedAt":"2026-07-17"},
+    {"slug":"fluid-lending-api","name":"Fluid Lending Contract API","description":"On-chain access to Fluid lending pools, vault collateral, debt, rates, limits and liquidation data.","categories":["Lending & Borrowing APIs","On-chain data"],"protocols":["JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://ethereum-rpc.publicnode.com","documentationUrl":"https://docs.fluid.instadapp.io/","websiteUrl":"https://fluid.instadapp.io/","usedFor":"Fluid lending pools, vaults and borrow state","lastVerifiedAt":"2026-07-17"},
+    {"slug":"justlend-api","name":"JustLend Contract API","description":"TRON smart-contract API for markets, supplied assets, borrows, collateral factors, rates and liquidations.","categories":["Lending & Borrowing APIs","On-chain data"],"protocols":["REST","JSON-RPC"],"access":"Public","freeAccess":true,"apiBaseUrl":"https://api.trongrid.io","documentationUrl":"https://justlend.org/docs/JustLend-api-en.pdf","websiteUrl":"https://justlend.org/","usedFor":"JustLend markets, accounts and lending actions","lastVerifiedAt":"2026-07-17"}
+  ],
+  "meta": {
+    "total": 158,
+    "updatedAt": "2026-07-17T00:00:00.000Z",
+    "license": "Directory metadata only. Provider data remains subject to provider terms."
+  }
+}

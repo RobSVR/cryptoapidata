@@ -25,4 +25,3 @@ Copy `.env.example` to `.env.local` and configure:
 - `GET /llms.txt`
 
 `catalog.json` is a static file served without a database or application API. The website and the static JSON file share the same catalogue data.
-
